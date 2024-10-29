@@ -11,8 +11,6 @@ After completing this lab, you will be able to:
 + Transform data to the required format.
 + Save the transformed data in a ready-to-load format, which can be loaded into an RDBMS.
 
-[wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip]
-
 ## Importing Libraries and setting paths
 We will extract data from CSV, JSON, and XML formats. 
 
@@ -22,6 +20,20 @@ To call the correct function for data extraction, we need to access the file for
 
 To log the information correctly, we need the date and time information at the point of logging. For this information, we require the datetime package.
 
-While glob, xml, and datetime are inbuilt features of Python, we need to install the pandas library to your IDE.
+While glob, xml, and datetime are inbuilt features of Python, we need to install the pandas library to our IDE.
 
 Note that we import only the ElementTree function from the xml.etree library because we require that function to parse the data from an XML file format.
+
+# Web scraping and Extracting Data using APIs
+Web scraping is used for extraction of relevant data from web pages. If we require some data from a web page in a public domain, web scraping makes the process of data extraction quite convenient. The use of web scraping, however, requires some basic knowledge of the structure of HTML pages. 
+
+## Objectives
++ Use the requests and BeautifulSoup libraries to extract the contents of a web page
++ Analyze the HTML code of a webpage to find the relevant information
++ Extract the relevant information and save it in the required form
+
+## Scenario
+We have been hired by a Multiplex management organization to extract the information of the top 50 movies with the best average rating from the web link shared below.
+[https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films]
+The information required is Average Rank, Film, and Year.
+We are required to write a Python script webscraping_movies.py that extracts the information and saves it to a CSV file top_50_films.csv. We are also required to save the same information to a database Movies.db under the table name Top_50.
