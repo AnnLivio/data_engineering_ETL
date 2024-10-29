@@ -1,4 +1,4 @@
-# Extract, Transform, and Load Data using Python
+# Extract, Transform, and Load Data using Python (etl_code.py)
 
 ## Introduction
 Extract, Transform and Load (ETL) operations are of extreme importance in the role of a Data engineer. A data engineer extracts data from multiple sources and different file formats, transforms the extracted data to predefined settings and then loads the data to a database for further processing. In this lab, you will get hands-on practice of performing these operations.
@@ -24,7 +24,7 @@ While glob, xml, and datetime are inbuilt features of Python, we need to install
 
 Note that we import only the ElementTree function from the xml.etree library because we require that function to parse the data from an XML file format.
 
-# Web scraping and Extracting Data using APIs
+# Web scraping and Extracting Data using APIs (webscraping_movies.py)
 Web scraping is used for extraction of relevant data from web pages. If we require some data from a web page in a public domain, web scraping makes the process of data extraction quite convenient. The use of web scraping, however, requires some basic knowledge of the structure of HTML pages. 
 
 ## Objectives
@@ -38,7 +38,7 @@ We have been hired by a Multiplex management organization to extract the informa
 The information required is Average Rank, Film, and Year.
 We are required to write a Python script webscraping_movies.py that extracts the information and saves it to a CSV file top_50_films.csv. We are also required to save the same information to a database Movies.db under the table name Top_50.
 
-# Accessing Databases using Python Script
+# Accessing Databases using Python Script (db_code.py)
 ## Objectives
 + Create a database using Python
 + Load the data from a CSV file as a table to the database
