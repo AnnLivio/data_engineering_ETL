@@ -37,3 +37,21 @@ We have been hired by a Multiplex management organization to extract the informa
 [https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films]
 The information required is Average Rank, Film, and Year.
 We are required to write a Python script webscraping_movies.py that extracts the information and saves it to a CSV file top_50_films.csv. We are also required to save the same information to a database Movies.db under the table name Top_50.
+
+# Accessing Databases using Python Script
+## Objectives
++ Create a database using Python
++ Load the data from a CSV file as a table to the database
++ Run basic "queries" on the database to access the information
+
+## Scenario
+Consider a dataset of employee records that is available with an HR team in a CSV file. As a Data Engineer, we are required to create the database called STAFF and load the contents of the CSV file as a table called INSTRUCTORS. The headers of the available data are :
+
+|Header|	Description|
+|---|---|
+|ID|Employee ID|
+|FNAME|	First Name|
+|LNAME|Last Name|
+|CITY|City of residence|
+|CCODE|Country code (2 letters)|
+
