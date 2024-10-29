@@ -4,17 +4,13 @@
 Extract, Transform and Load (ETL) operations are of extreme importance in the role of a Data engineer. A data engineer extracts data from multiple sources and different file formats, transforms the extracted data to predefined settings and then loads the data to a database for further processing. In this lab, you will get hands-on practice of performing these operations.
 
 ## Objectives
-After completing this lab, you will be able to:
-
 + Read CSV, JSON, and XML file types.
 + Extract the required data from the different file types.
 + Transform data to the required format.
 + Save the transformed data in a ready-to-load format, which can be loaded into an RDBMS.
 
 ## Importing Libraries and setting paths
-We will extract data from CSV, JSON, and XML formats. 
-
-The xml library can be used to parse the information from an .xml file format. The .csv and .json file formats can be read using the pandas library. We will use the pandas library to create a data frame format that will store the extracted data from any file.
+We will extract data from CSV, JSON, and XML formats. The xml library can be used to parse the information from an .xml file format. The .csv and .json file formats can be read using the pandas library. We will use the pandas library to create a data frame format that will store the extracted data from any file.
 
 To call the correct function for data extraction, we need to access the file format information. For this access, we can use the glob library.
 
